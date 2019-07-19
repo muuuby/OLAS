@@ -21,7 +21,7 @@
             try{
                 String uri = "jdbc:mysql://localhost/OLAS_DB";
                 String user = "root";
-                String password = "41710020wys";
+                String password = "***";
                 con = DriverManager.getConnection(uri, user, password);
                 sql = con.createStatement();
                 
